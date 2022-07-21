@@ -1,7 +1,7 @@
-import {configureStore } from "@reduxjs/toolkit";
-import NumberReducer, { NumberState} from "./number/NumberSlice";
+import { configureStore } from "@reduxjs/toolkit";
+import NumberReducer from "./number/NumberSlice";
 
-export const store =  configureStore({
+export const store = configureStore({
     reducer: {
         number: NumberReducer
     }

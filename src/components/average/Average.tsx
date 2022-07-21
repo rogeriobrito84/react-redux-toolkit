@@ -4,13 +4,13 @@ import Card from "../card/Card";
 
 const Average = () => {
 
-    const {min, max} = useAppSelector(SelectNumber);
+    const { min, max } = useAppSelector(SelectNumber);
 
     return <Card title="Number Average" green>
         <div className="Interval">
             <span>
                 <span>Result: </span>
-                <strong>{(min + max)/2}</strong>
+                <strong>{(min + max) / 2}</strong>
             </span>
         </div>
     </Card>

@@ -19,7 +19,7 @@ const getColor = (props: CardProps): string => {
 }
 
 const Card = (props: PropsWithChildren<CardProps>) => {
-    
+
     const nameClass = `Card ${getColor(props)}`;
 
     return <div className={nameClass}>

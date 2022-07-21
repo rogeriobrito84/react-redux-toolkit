@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction, Slice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AppState } from "../StoreConfig";
 
 export type NumberState = {
@@ -16,7 +16,7 @@ export const NumberSlice = createSlice({
     initialState,
     reducers: {
         setMin: (state, action: PayloadAction<number>) => {
-            state.min = action.payload; 
+            state.min = action.payload;
         },
         setMax: (state, action: PayloadAction<number>) => {
             state.max = action.payload;
@@ -24,7 +24,7 @@ export const NumberSlice = createSlice({
     }
 });
 
-export const {setMin, setMax}= NumberSlice.actions;
+export const { setMin, setMax } = NumberSlice.actions;
 
 export const SelectNumber = (state: AppState) => state.number;
 

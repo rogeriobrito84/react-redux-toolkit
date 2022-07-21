@@ -3,8 +3,8 @@ import { SelectNumber } from "../../store/number/NumberSlice";
 import Card from "../card/Card";
 
 const Sum = () => {
-    const {min, max} = useAppSelector(SelectNumber);
-    
+    const { min, max } = useAppSelector(SelectNumber);
+
     return <Card title="Number Sum" blue>
         <div className="Interval">
             <span>
