@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.b3db0b6d.css",
-    "main.js": "/github-page/static/js/main.38cc7d2d.js",
-    "static/js/787.959e26fa.chunk.js": "/github-page/static/js/787.959e26fa.chunk.js",
-    "index.html": "/github-page/index.html",
-    "main.b3db0b6d.css.map": "/github-page/static/css/main.b3db0b6d.css.map",
-    "main.38cc7d2d.js.map": "/github-page/static/js/main.38cc7d2d.js.map",
-    "787.959e26fa.chunk.js.map": "/github-page/static/js/787.959e26fa.chunk.js.map"
+    "main.css": "/react-redux-toolkit/static/css/main.b3db0b6d.css",
+    "main.js": "/react-redux-toolkit/static/js/main.ab0eb64a.js",
+    "static/js/787.959e26fa.chunk.js": "/react-redux-toolkit/static/js/787.959e26fa.chunk.js",
+    "index.html": "/react-redux-toolkit/index.html",
+    "main.b3db0b6d.css.map": "/react-redux-toolkit/static/css/main.b3db0b6d.css.map",
+    "main.ab0eb64a.js.map": "/react-redux-toolkit/static/js/main.ab0eb64a.js.map",
+    "787.959e26fa.chunk.js.map": "/react-redux-toolkit/static/js/787.959e26fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3db0b6d.css",
-    "static/js/main.38cc7d2d.js"
+    "static/js/main.ab0eb64a.js"
   ]
 }
